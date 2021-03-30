@@ -396,7 +396,7 @@ header ul li .mnu-btn {
 
 .case-page .case-t1 .wrapper {
 	position: absolute;
-	bottom: -345px;
+	bottom: -356px;
 	left: 50%;
 	transform: translate(-50%, 0);
 	width: 50%;
@@ -862,6 +862,7 @@ header ul li .mnu-btn {
 	color: white;
 }
 .section-table_left p {
+	max-width: 80%;
 	font-size: 2rem;
 	display: block;
 	color: white;
@@ -898,7 +899,7 @@ header ul li .mnu-btn {
 .table-item {
 	height: 8rem;
 	width: 20rem;
-	background-color: black;
+	background-color: #0b0b0b;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -2286,4 +2287,8 @@ footer .soc a {
 }
 .delay-1200 {
 	animation-delay: 1200ms;
+}
+
+.mt-0 {
+	margin-top: 0;
 }
